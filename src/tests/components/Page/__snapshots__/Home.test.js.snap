@@ -2,6 +2,6 @@
 
 exports[`should render PageHome correctly 1`] = `
 <div>
-  Home Page
+  <Header />
 </div>
 `;

@@ -1,8 +1,9 @@
 import React from 'react';
+import Header from '../Header';
 
 const PageHome = () => (
   <div>
-    Home Page
+    <Header />
   </div>
 );
 
