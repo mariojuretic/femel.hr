@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render SearchBar correctly 1`] = `
+<form
+  className="header__search"
+  onSubmit={[Function]}
+>
+  <input
+    className="header__search-input"
+    name="search"
+    onChange={[Function]}
+    placeholder="Search..."
+    type="text"
+  />
+  <button
+    className="header__search-button"
+  >
+    <i
+      className="fas fa-search"
+    />
+  </button>
+  <div
+    className="header__search-results"
+  >
+    <p>
+      No results for '
+      '
+    </p>
+  </div>
+</form>
+`;

@@ -3,5 +3,21 @@
 exports[`should render Header correctly 1`] = `
 <div>
   <HeaderInfoBar />
+  <div
+    className="content-container"
+  >
+    <div
+      className="header__content"
+    >
+      <img
+        src="https://placehold.it/120x60"
+      />
+      <div
+        className="header__actions"
+      >
+        <HeaderSearchBar />
+      </div>
+    </div>
+  </div>
 </div>
 `;
